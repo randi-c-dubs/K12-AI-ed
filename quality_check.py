@@ -34,25 +34,25 @@ def clean_line(line_of_text):
 ## Concepts
 # Big Ideas 1-5, Interdisciplinary, Background
 # Big idea #1: Sensors and perception, Computer Vision, Signal processing, Gesture recognition
-# Big idea #2: Automata and Intelligent Agents, Graphs and data structures, Sorting and Search, Logic Systems
+# Big idea #2: Automata and Intelligent Agents, Graphs and data structures, Sorting and Search, Logic Systems, Path planning
 # Big Idea #3: Classification, Prediction, Generation, Machine Learning, Generators vs. Discriminators, Data and Data Visualization,
 #              Natural Language Processing, Reinforcement Learning, Bias, Unsupervised Learning
 # Big Idea #4: Chatbots, Speech Synthesis, Human-Robot Interaction, Natural Language Processing
-#              Systems Development
-# Big Idea #5: Ethics
+#              Systems Development, Human-Computer Interaction
+# Big Idea #5: Ethics, Privacy, Bias, Security
 # Background: What is AI, History of AI, Humans vs AI
 BIG_IDEAS = ["big idea #1", "big idea #2", "big idea #3", "big idea #4", "big idea #5", "interdisciplinary", "background"]
 BIG_IDEA_1 = ["sensors and perception", "computer vision", "signal processing", "gesture recognition"]
 BIG_IDEA_2 = ["automata and intelligent agents", "graphs and data structures", "sorting and search", "logic systems"]
 BIG_IDEA_3 = ["classification", "prediction", "generation", "machine learning", "generators vs. discriminators", "data and data visualization", "natural language processing", "reinforcement learning", "bias", "unsupervised learning"]
-BIG_IDEA_4 = ["chatbots", "speech synthesis", "human-robot interaction", "natural language processing", "systems development"]
-BIG_IDEA_5 = ["ethics"]
+BIG_IDEA_4 = ["chatbots", "speech synthesis", "human-robot interaction", "natural language processing", "systems development", "human-computer interaction"]
+BIG_IDEA_5 = ["ethics", "Privacy", "Bias", "Security"]
 BACKGROUND = ["what is ai", "history of ai", "humans vs. ai"]
-INTERDISCIPLINARY = ["robotics", "data science", "sustainability", "aeronautics/astronautics", "bioinformatics"]
+INTERDISCIPLINARY = ["robotics", "data science", "sustainability", "aeronautics/astronautics", "bioinformatics", "athletics"]
 
 ## Practices
 # 0 Recognizing and examining AI artifacts: Recognizing everyday AI ,
-#           Identifying the inputs and outputs of ML systems
+#           Identifying the inputs and outputs of ML systems, Evaluating bias in models
 # 1 Critically interpreting data: Data analysis,
 #           Data selection and feature selection
 # 2 Analysis of design intentions: Identifying ethical implications,
@@ -60,7 +60,7 @@ INTERDISCIPLINARY = ["robotics", "data science", "sustainability", "aeronautics/
 # 3 Design processes: Design thinking, Problem-Solving,
 #           Invention and Creation of Tech, Scientific method
 # 4 AI Project Planning: Problem Scoping, Determining which model to use,
-#           Adapting and Innovating, Using technology to create new knowledge
+#           Adapting and Innovating, Using technology to create new knowledge, Designing AI systems
 # 5 Creating AI Artifacts: Prototyping, Creating (non-ML) models,
 #           Validating (non-ML) system, Programming and Computational thinking
 #           Implementation, Deploy AI in a mobile app, Creating user interfaces
@@ -68,23 +68,23 @@ INTERDISCIPLINARY = ["robotics", "data science", "sustainability", "aeronautics/
 #           Evaluation (of entire artifact)
 # 6 ML Advocacy: Advocacy
 # 7 21st Century STEM Skills: Collaborating, Tech/Scientific communication, 
-#           Skills to be successful as a minority in STEM, Teamwork
+#           Skills to be successful as a minority in STEM, Teamwork, Creativity
 PRACTICE_HEADERS = ["recognizing and examining ai artifacts", "critically interpreting data", "analysis of design intentions", "design processes", "ai project planning", "creating ai artifacts", "ml advocacy", "21st century stem skills"]
 P_HEADER_0 = ["recognizing everyday ai", "identifying the inputs and outputs of ml systems"]
 P_HEADER_1 = ["data analysis", "data selection and feature selection"]
 P_HEADER_2 = ["identifying ethical implications", "identifying stakeholders/values"]
 P_HEADER_3 = ["design thinking", "problem-solving", "invention and creation of tech", "scientific method"]
-P_HEADER_4 = ["problem scoping", "determining which model to use", "adapting and innovating", "using technology to create new knowledge"]
+P_HEADER_4 = ["problem scoping", "determining which model to use", "adapting and innovating", "using technology to create new knowledge", "designing AI systems"]
 P_HEADER_5 = ["prototyping", "creating (non-ml) models", "validating (non-ml) system", "programming and computational thinking", "implementation", "deploy ai in a mobile app", "creating user interfaces", "training ml models", "validating ml models", "testing or evaluating ml models", "evaluation"]
 P_HEADER_6 = ["advocacy"]
-P_HEADER_7 = ["collaborating", "tech/scientific communication", "skills to be successful as a minority in stem", "teamwork"]
+P_HEADER_7 = ["collaborating", "tech/scientific communication", "skills to be successful as a minority in stem", "teamwork", "creativity"]
 
 ## Perspectives
-# Ethics: stakeholders may have different goals for ai
-# Recognizing AI: awareness of ai in future careers, awareness of AI in personal life
+# Ethics: stakeholders may have different goals for ai, Ai artifacts can be both beneficial and harmful
+# Recognizing AI: awareness of ai in future careers, awareness of AI in personal life, awareness of AI's impact on culture
 # Limits of AI: aI strengths and weaknesses
 # Programmability: Human role in designing AI systems, features can be added to existing systems
-# Identity and Community: recognize personal strengths and interests for future jobs, exposure to expert communities
+# Identity and Community: recognize personal strengths and interests for future jobs, exposure to expert communities, recognize self as a part of a larger community
 # Interest: realize importance of technical skills development for jobs
 # Self-efficacy: belief in one's capability
 # Self-Expression: using AI to express oneself
@@ -95,6 +95,7 @@ PERSPECTIVES = ["ethics", "recognizing ai", "limits of ai", "programmability", "
 # Student course feedback
 # Knowledge transfer and application
 # Knowledge Assessment
+# Embedded (knowledge) assessment
 # Project-Based Assessment
 # Classroom Observation
 # Presentation-Based Assessment
@@ -102,7 +103,7 @@ PERSPECTIVES = ["ethics", "recognizing ai", "limits of ai", "programmability", "
 # Competition
 # Perceptions of AI
 # Other
-ASSESSMENTS = ["perceptions of ai", "competition", "knowledge self-assessment", "student course feedback", "knowledge transfer and application", "knowledge assessment", "project-based assessment", "classroom observation", "presentation-based assessment", "attitudes toward computing", "other"]
+ASSESSMENTS = ["perceptions of ai", "competition", "knowledge self-assessment", "student course feedback", "knowledge transfer and application", "knowledge assessment", "embedded assessment", "project-based assessment", "classroom observation", "presentation-based assessment", "attitudes toward computing", "other"]
 
 count = 0
 

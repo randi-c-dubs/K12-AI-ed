@@ -32,7 +32,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Have DataTable do it's thing
     $.getJSON('studies.json', function(data) {
-        //console.log(data);
         $("#all_studies").DataTable({
             data: data,
             responsive: {
@@ -42,19 +41,37 @@ window.addEventListener('DOMContentLoaded', event => {
                 }
             },
             columns: [
-                { width: "300px", title: "Title", data: "Title" },
-                { width: "60px", title: "Year", data: "Year" },
-                { width: "60px", title: "Age", data: "Age Group" },
-                { width: "200px", title: "Assessment Type", data: "Assessment Types" },
-                { width: "200px", title: "AI Concepts", data: "Concepts" },
-                { width: "200px", title: "AI Practices", data: "Practices" },
-                { width: "200px", title: "AI Perspectives", data: "Perspectives" },
+                { title: "Title", data: "title" },
+                { title: "Year", data: "year" },
+                { title: "Author", data: "first author" },
+                { title: "Age", data: "age group" },
+                { title: "AI Concepts", data: "concepts" },
+                { title: "AI Practices", data: "practices" },
+                { title: "AI Perspectives", data: "perspectives" },
+                { title: "Assessment Type", data: "assessments"},
+                { title: "Title", data: "title", visible:"false"  },
+                { title: "Authors", data: "author", visible:"false" },
+                { title: "Link", data: "url", visible:"false" },
             ],
             scrollY: 600,
             lengthMenu: [
                 [10, 25, 50, -1],
                 [10, 25, 50, 'All'],
             ],
+            iDisplayLength: -1
+        });
+        
+        // update data table style
+        $( '#all_studies td' ).each(function() {
+            $(this).css('max-width', '300px');
+            $(this).css('overflow', 'hidden');
+            $(this).css('text-overflow', 'ellipsis');
+            $(this).css('white-space', 'nowrap');
         });
     });
+
+    
+    
+     /*       .dataTable > td {
+            }*/
 });

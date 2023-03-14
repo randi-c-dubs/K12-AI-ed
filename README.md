@@ -2,10 +2,10 @@
 This repository contains a collection of published AI education papers for K-12 students and beyond.
 
 ## Overview
-A summary of this work is available as a completed paper, [A Review of Assessments in K-12 AI Literacy Curricula](https://randi-c-dubs.github.io/K12-AI-ed/Constructionist_AI_Assessments.pdf), and a website [A Review of K-12 AI Literacy Curricula](https://randi-c-dubs.github.io/K12-AI-ed/) (under construction) that were written in 2021. The literature review has not been updated since then.
+A summary of this work is available as [A Review of Assessments in K-12 AI Literacy Curricula paper](https://randi-c-dubs.github.io/K12-AI-ed/Constructionist_AI_Assessments.pdf), and a [A Review of K-12 AI Literacy Curricula website](https://randi-c-dubs.github.io/K12-AI-ed/) (under construction) that were written in 2021. The literature review has not been updated since then.
 
 ## Reviewed Items
-A running list of K-12 AI Literacy work and reviews, including items that were not included in the literature review, is available as a Google spreadsheet [AI + Programming Studies](https://docs.google.com/spreadsheets/d/1Pxm1rNao60V-twYn2EgR2uNZnVZeyOL_PfSwokLzf2w/edit#gid=1001881592). We hope this spreadsheet will be a helpful starting point for scholars doing work in K-12 AI literacy and wanting to know more about what work has been published in the field.
+A running list of K-12 AI Literacy work and reviews, including items that were not included in the literature review, is available as [AI + Programming Studies spreadsheet - Google Sheets](https://docs.google.com/spreadsheets/d/1Pxm1rNao60V-twYn2EgR2uNZnVZeyOL_PfSwokLzf2w/edit#gid=1001881592). We hope this spreadsheet will be a helpful starting point for scholars doing work in K-12 AI literacy and wanting to know more about what work has been published in the field.
 For your convenience, you can access this list as a:
 * [TSV (tab-separated values) file](https://randi-c-dubs.github.io/K12-AI-ed/AI_Studies.txt)
 * [Bibtex file](https://randi-c-dubs.github.io/K12-AI-ed/refs.bib)
